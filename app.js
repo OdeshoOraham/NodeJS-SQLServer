@@ -31,7 +31,7 @@ sql.connect(dbconfig, function(err) {
 
   // query to the database and get the records
   request.query("select top 1 * from Demographics", function(err, recordset) {
-    console.log(recordset["recordset"][0]["SS_Patient_ID"]);
+    console.log(recordset["recordset"][0]["Demographics_ID"]);
   });
 });
 
