@@ -3,6 +3,6 @@ module.exports = {
     user: "username",
     password: "password",
     server: "server_name",
-    database: "server_db"
+    database: "db_name"
   }
 };
