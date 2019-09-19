@@ -1,7 +1,7 @@
 //Iniitilize Libraries
 const dbconfig = require("./config/db").dbconfig;
 const express = require("express");
-var sql = require("mssql");
+const sql = require("mssql");
 // const path = require("path");
 // const bodyparser = require("body-parser");
 
